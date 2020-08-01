@@ -332,7 +332,7 @@ textarea {
    .features p {
      text-align: center;
      margin: 0;
-     padding: 0 80px 0 80px;
+     padding: 0 50px 0 50px;
    }
 
    /* Reviews */
@@ -372,6 +372,7 @@ textarea {
    }
 
    .contact-section {
+     background-color: #2a423a;
      display: flex;
      justify-content: center;
      align-items: center;
