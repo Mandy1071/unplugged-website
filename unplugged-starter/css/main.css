@@ -695,7 +695,11 @@ textarea {
     }
 
     .mission-content p {
-      width: 45% ;
+      width: 30%;
+    }
+
+    .map figure {
+      padding-bottom: 45.5%;
     }
 
     .contact-section .content-wrapper h2 {
@@ -830,6 +834,10 @@ textarea {
       width: 95%;
       font-size: 3em;
     } 
+
+    .map figure {
+      padding-bottom: 37.5%;
+    }
 
     .contact-content h4 {
       font-size: 1.875em;
