@@ -114,6 +114,7 @@ textarea {
      font-family: 'Popins', sans-serif;
      font-size: 1.875em;
      font-weight: 500;
+     margin: 0;
    }
    
    h3,
@@ -128,10 +129,6 @@ textarea {
      font-size: .875em;
      line-height: 1.285em;
    }
-
-  .footer-content{
-    margin-bottom: 50px;
-  }
 
   .copyright {
     text-align: center;
@@ -231,9 +228,17 @@ textarea {
    }
 
    footer .social-icons p {
+     background-color: #527158;
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
      display: flex;
      justify-content: center;
      align-items: center;
+   }
+
+   footer .social-icons p i {
+     font-size: 1.3125em;
    }
 
    footer .social-icons {
@@ -243,7 +248,7 @@ textarea {
    }
 
    footer .copyright {
-     margin: 20px 0;
+     margin: 40px 0;
    }
    /*===== Mobile Styles - Homepage =====*/
 
@@ -364,15 +369,7 @@ textarea {
      height: 200px;
    }
 
-   footer i {
-    background-color: #527158;
-    margin-left: 30px;
-    font-size: 1.250em;
-    width: 40px;
-    height: 30px;
-    border-radius: 50%;
-    padding-top: 10px;
-  }
+  
 
    /* ========================================
       About Page
@@ -597,6 +594,10 @@ textarea {
       flex-flow: row wrap;
     }
 
+    .hero-area {
+      min-height: 600px;
+    }
+
     .hero-area h1 {
       font-size: 3em;
       line-height: 1;
@@ -694,6 +695,11 @@ textarea {
       line-height: 1.285;
     }
 
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
+    }
+
     footer .copyright {
       width: 100%;
     }
@@ -710,7 +716,7 @@ textarea {
     }
 
     .mission-content p {
-      width: 30%;
+      width: 45%;
     }
 
     .map figure {
