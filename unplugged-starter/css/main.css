@@ -364,6 +364,16 @@ textarea {
      height: 200px;
    }
 
+   footer i {
+    background-color: #527158;
+    margin-left: 30px;
+    font-size: 1.250em;
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    padding-top: 10px;
+  }
+
    /* ========================================
       About Page
       ======================================== */
